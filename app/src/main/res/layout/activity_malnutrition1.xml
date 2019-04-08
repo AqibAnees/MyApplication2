@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+   android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.malnutrition1">
+
+
+    <TextView
+        android:id="@+id/textViewmalnutrition8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/malnutrition_growth" />
+
+    <Button
+        android:id="@+id/btmalnutrition11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="23dp"
+        android:onClick="expandlistmal"
+        android:text="  Classify all  children for GROWTH " />
+    <LinearLayout
+        android:id="@+id/layout_nutrition"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/colorPrimary"
+        android:layout_marginTop="10dp"
+        android:visibility="gone"
+        android:gravity="center"
+        >
+        <Button
+            android:id="@+id/btn_malnutrition_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Any general danger sign        OR •   Chest indrawing       OR •   Stridor in calm child "
+            />
+        <Button
+            android:id="@+id/btn_malnutrition_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fast breathing. "
+            />
+        <Button
+            android:id="@+id/btn_malnutrition_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No signs of pneumonia      or very severe disease. "
+            />
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textViewmalnutrition9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+        android:text="ANAEMIA • Look for palmar pallor. Is it:  − Severe palmar pallor? − Some palmar pallor?
+ • If any pallor  check the haemoglobin (HB) level" />
+
+    <Button
+        android:id="@+id/btmalnutrition12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:onClick="expandlistmal2"
+        android:text="And classify all children  For ANAEMIA "/>
+    <LinearLayout
+        android:id="@+id/layout_nutrition1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/colorPrimary"
+        android:layout_marginTop="10dp"
+        android:visibility="gone"
+        android:gravity="center"
+        >
+        <Button
+            android:id="@+id/btnutrition1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Severe palmar pallor OR • Hb less than 6g/dl "
+            />
+        <Button
+            android:id="@+id/btnutrition2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Some palmar pallor OR •Hb less than 10g/dl  "
+            />
+        <Button
+            android:id="@+id/btnutrition3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="No pallor OR •Hb greater than 10g/dl "
+            />
+    </LinearLayout>
+
+</LinearLayout>
+</ScrollView>

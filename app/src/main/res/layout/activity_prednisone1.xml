@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.prednisone1">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="USE OF A SPACER A spacer is a way of delivering the bronchodilator drugs effectively into the lungs. No child under 5 years should be given an inhaler without a spacer. A spacer  works as well as a nebuliser if correctly used.
+ Spacers can be made in the following way: Use a 500ml cool drink bottle.  Cut a hole in the end or the top of the bottle in the same shape as the mouthpiece of the inhaler.  This can be done using a sharp knife  In a small baby a mask can be made by making a similar hole in a plastic (not polystyrene) cup  Alternatively commercial spacers can be used if available
+ To use an inhaler with a spacer: Shake the inhaler well Insert mouthpiece of the inhaler through the hole in the bottle or plastic cup. The child should put the opening of the bottle into his mouth and breath in and out through the mouth A carer then presses down the inhaler and sprays into the bottle while the child continues to breath normally Wait for three to four breaths and repeat for total of five sprays For younger children place the cup over the child’s mouth and use as a spacer in the same way
+
+ENSURE THAT ALL CARERS OF CHILDREN USING INHALERS ARE ABLE TO USE AN INHALER AND SPACER EFFECTIVELY " />
+</RelativeLayout>

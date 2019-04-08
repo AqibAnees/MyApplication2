@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.cough1">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dummy_text"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/buttonC1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:onClick="Expandlist"
+        android:text="Classify COUGH or DIFFICULT BREATHING " />
+
+        <LinearLayout
+            android:id="@+id/lin_layout_classifi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/colorPrimary"
+            android:layout_marginBottom="10dp"
+            android:visibility="gone"
+            android:gravity="center">
+            <Button
+                android:id="@+id/btn_test_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="showDetailActivity"
+                android:text="Any general danger sign        OR •   Chest indrawing       OR •   Stridor in calm child "
+                />
+            <Button
+                android:id="@+id/btn_test_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="show"
+                android:text="Fast breathing. "
+                />
+            <Button
+                android:id="@+id/btn_test_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No signs of pneumonia      or very severe disease. "
+                />
+        </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dummy_text_2"
+        android:layout_margin="5dp"/>
+
+    <Button
+        android:id="@+id/buttonC2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:onClick="ExplandList2"
+        android:text="And if wheeze classify" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:id="@+id/linwheez"
+        android:gravity="center"
+
+        >
+
+        <Button
+            android:id="@+id/btn_wheez_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Yes to any question"
+            />
+        <Button
+            android:id="@+id/btn_wheez_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="All other children with wheeze"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
+</ScrollView>

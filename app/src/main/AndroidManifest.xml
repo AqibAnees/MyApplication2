@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="e.aqibqureshi.imci">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activities.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.Introduction" />
+        <activity android:name=".activities.age51" />
+        <activity android:name=".activities.cough1" />
+        <activity android:name=".activities.diarrhoea1" />
+        <activity android:name=".activities.fever1" />
+        <activity android:name=".activities.earproblem1" />
+        <activity android:name=".activities.malnutrition1" />
+        <activity android:name=".activities.hiv1" />
+        <activity android:name=".activities.treatchild1" />
+        <activity android:name=".activities.prednisone1" />
+        <activity android:name=".activities.Amoxycillin1" />
+        <activity android:name=".activities.nalidixic1" />
+        <activity android:name=".activities.cotrimoxazole1" />
+        <activity android:name=".activities.iron1" />
+        <activity android:name=".activities.paracetamol1" />
+        <activity android:name=".activities.artemether1" />
+        <activity android:name=".activities.earparacetamol1" />
+        <activity android:name=".activities.teachmother1" />
+        <activity android:name=".activities.clinic1" />
+        <activity android:name=".activities.followupcare1" />
+        <activity android:name=".activities._activity.DetailActivity"></activity>
+    </application>
+
+</manifest>

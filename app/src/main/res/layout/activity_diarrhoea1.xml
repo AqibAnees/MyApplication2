@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.diarrhoea1">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:text="@string/diarrhoea_text" />
+    <Button
+        android:id="@+id/btndiarrhoea1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Classify all children with diarrhoea  for DEHYDRATION"
+        android:layout_marginTop="20dp"
+        android:onClick="expandlistd1"
+
+        />
+    <LinearLayout
+        android:id="@+id/ln_diarrhoea1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/colorPrimary"
+        android:layout_marginBottom="10dp"
+        android:visibility="gone"
+        android:gravity="center">
+        <Button
+            android:id="@+id/btn_diarrhoea_11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/diarrhoea11"
+            />
+        <Button
+            android:id="@+id/btn_diarrhoea_12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/diarrhoea12"
+            />
+        <Button
+            android:id="@+id/btn_diarrhoea_13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/diarrhoea13"
+            />
+
+
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btndiarrhoea2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" And if diarrhoea 14 days or more classify "
+        android:layout_marginTop="5dp"
+        android:onClick="expandlistd2"
+
+        />
+    <LinearLayout
+        android:id="@+id/ln_diarrhoea2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/colorPrimary"
+        android:layout_marginBottom="10dp"
+        android:visibility="gone"
+        android:gravity="center">
+        <Button
+            android:id="@+id/btn_diarrhoea_21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dehydration present or History of weight loss   "
+            />
+        <Button
+            android:id="@+id/btn_diarrhoea_22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="•No dehydration and No history of weight loss"
+            />
+
+
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/diarrhoea3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:text=" And if blood in stool classify"
+        android:layout_marginTop="5dp"
+        android:onClick="expandlistd3"
+        />
+    <LinearLayout
+        android:id="@+id/ln_diarrhoea3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/colorPrimary"
+        android:layout_marginBottom="10dp"
+        android:visibility="gone"
+        android:gravity="center">
+        <Button
+            android:id="@+id/btn_diarrhoea_31"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dehydration present or Child is below the age of 12 months   "
+            />
+        <Button
+            android:id="@+id/btn_diarrhoea_32"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Blood in the stool"
+            />
+
+
+    </LinearLayout>
+
+</LinearLayout>
+</ScrollView>

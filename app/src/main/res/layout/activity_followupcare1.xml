@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.followupcare1">
+
+
+    <TextView
+        android:id="@+id/textViewfollowup14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="@string/followup_text1" />
+    <Button
+        android:id="@+id/btfollowpneumonia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:text="PNEUMONIA" />
+    <Button
+        android:id="@+id/btfollowheeze"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="135dp"
+        android:text="WHEEZE (FIRST EPISODE)" />
+    <Button
+        android:id="@+id/btfollowdiarrhoea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180dp"
+        android:text="DIARRHOEA" />
+    <Button
+        android:id="@+id/btfollowdysentery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="225dp"
+        android:text="DYSENTERY" />
+    <Button
+        android:id="@+id/btfollowpersistent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="270dp"
+        android:text="PERSISTENT DIARRHOEA" />
+    <Button
+        android:id="@+id/btfollowmalaria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="315dp"
+        android:text="MALARIA" />
+    <Button
+        android:id="@+id/btfollowfever"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="360dp"
+        android:text="FEVER - OTHER CAUSE" />
+    <Button
+        android:id="@+id/btfollowearinfection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="405dp"
+        android:text="EAR INFECTION" />
+    <Button
+        android:id="@+id/btfollowfeeding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="450dp"
+        android:text="FEEDING PROBLEM" />
+    <Button
+        android:id="@+id/btfollowanaemia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="495dp"
+        android:text="ANAEMIA" />
+    <Button
+        android:id="@+id/btfollowgrowing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="540dp"
+        android:text="NOT GROWING WELL" />
+
+
+
+
+</RelativeLayout>
+</ScrollView>

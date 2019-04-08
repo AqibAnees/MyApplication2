@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.Introduction">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="Every day, millions of parents seek health care for their sick children, taking them to hospitals, health centers, pharmacists, doctors and traditional healers. Surveys reveal that many sick children are not properly assessed and treated by these health care providers, and that their parents are poorly advised. At first-level health facilities in low-income countries, diagnostic supports such as radiology and laboratory services are minimal or non-existent, and drugs and equipment are often scarce. Limited supplies and equipment, combined with an irregular flow of patients, leave health workers at this level with few opportunities to practice complicated clinical procedures. Instead, they often rely on history and signs and symptoms to determine a course of management that makes the best use of the available resources." />
+</RelativeLayout>

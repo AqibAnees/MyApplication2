@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+
+    >
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.clinic1">
+
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="@string/CLINIC_text1" />
+
+    <Button
+        android:id="@+id/btvitamina"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="63dp"
+        android:text="Give Vitamin A to all Children every 6 months" />
+
+    <Button
+        android:id="@+id/btmebendazole"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btvitamina"
+        android:text="Give Vitamin A to all Children every 6 months" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="170dp"
+        android:text="@string/clinic_text2" />
+
+    <Button
+        android:id="@+id/btoxygen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="260dp"
+        android:text="Give Oxygen to a Child with Severe Pneumonia" />
+
+    <Button
+        android:id="@+id/btnebulised"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="315dp"
+        android:text="Give Nebulised Adrenaline to a Child with Stridor" />
+
+    <Button
+        android:id="@+id/btdiazepam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnebulised"
+        android:text="Give Diazepam to Stop a Convulsion" />
+
+    <Button
+        android:id="@+id/btintramuscular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btdiazepam"
+        android:text="Give An Intramuscular Antibiotic" />
+    <Button
+        android:id="@+id/btpreventlowsugar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btintramuscular"
+        android:text="Prevent Low Blood Sugar (Hypoglycaemia) during Transfer to Hospital" />
+    <Button
+        android:id="@+id/bttreatlowsugar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btpreventlowsugar"
+        android:text="Treat the child for Low Blood Sugar" />
+    <Button
+        android:id="@+id/bttreatdehydration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bttreatlowsugar"
+        android:text="Treat for Some Dehydration with ORS" />
+</RelativeLayout>
+</ScrollView>

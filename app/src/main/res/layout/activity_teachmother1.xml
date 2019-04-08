@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.teachmother1">
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="@string/teachmother_text" />
+
+    <Button
+        android:id="@+id/btclearear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="165dp"
+        android:text="Clear the Ear by Dry Wicking" />
+    <Button
+        android:id="@+id/btmouthulcers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="210dp"
+        android:text="Treat for Mouth Ulcers with Gentian Violet " />
+    <Button
+        android:id="@+id/btsoothethroat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="255dp"
+        android:text="Soothe the Throat, Relieve the Cough with a Safe Remedy" />
+    <Button
+        android:id="@+id/btthrush"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="305dp"
+        android:text="Treat for Thrush with Nystatin or Gentian Violet" />
+
+
+</RelativeLayout>

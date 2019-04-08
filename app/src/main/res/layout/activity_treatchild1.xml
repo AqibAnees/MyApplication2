@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+<RelativeLayout     android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.treatchild1">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/treat_text"
+        android:layout_marginTop="10dp"
+         />
+    <Button
+        android:id="@+id/btprednisone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="240dp"
+        android:text=" For WHEEZE give Salbutamol and Prednisone " />
+    <Button
+        android:id="@+id/btamoxycillin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="285dp"
+        android:text="For PNEUMONIA and ACUTE EAR INFECTION give Amoxycillin" />
+    <Button
+        android:id="@+id/btnalidixic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="338dp"
+        android:text="For DYSENTERY give Nalidixic Acid" />
+    <Button
+        android:id="@+id/btcotrimoxazole"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="385dp"
+        android:text="For HIV INFECTION give Co-trimoxazole to Prevent Infections" />
+    <Button
+        android:id="@+id/btiron"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="440dp"
+        android:text="For ANAEMIA give Iron " />
+    <Button
+        android:id="@+id/btparacetamol"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="488dp"
+        android:text="Give Paracetamol for chronic pain relief
+Add regular Codeine for chronic severe pain " />
+    <Button
+        android:id="@+id/btartemether"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="540dp"
+        android:text="For MALARIA Give Co-artemether" />
+    <Button
+        android:id="@+id/btearparacetamol"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="585dp"
+        android:text="For High Fever or Ear Pain give Paracetamol " />
+    <Button
+        android:id="@+id/btteachmother"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="630dp"
+        android:text="TEACH THE MOTHER TO TREAT LOCAL INFECTIONS AT HOME " />
+    <Button
+        android:id="@+id/btclinic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="685dp"
+        android:text="GIVE THESE PREVENTIVE TREATMENTS IN CLINIC " />
+
+
+
+
+</RelativeLayout>
+</ScrollView>
